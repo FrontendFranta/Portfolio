@@ -31,6 +31,7 @@ const Appbar = () => {
         <a className='nav-link' href='#skills' onClick={closeMobileMenu}>Dovednosti</a>
         <a className='nav-link' href='#education' onClick={closeMobileMenu}>Vzdělání</a>
         <a className='nav-link' href='#contact' onClick={closeMobileMenu}>Kontakt</a>
+        <a className='nav-link' href='#contact' onClick={closeMobileMenu}>Kontakt</a>
       </div>
     </div>
    </nav>
