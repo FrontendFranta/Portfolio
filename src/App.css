@@ -1,0 +1,14 @@
+.bg-dark{
+  background: #200545!important;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #16073c;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #251163;
+}

@@ -1,0 +1,60 @@
+header{
+    height: 100%;
+    background-image: url(../images/hero.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.scroll{
+    background-color: #16073c!important;
+    width: 100%;
+    border-bottom: 1px solid #1a064c;
+}
+.flying{
+    animation: fly 3s linear infinite;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    
+    
+}
+h4 span{
+    color: #c32250;
+    font-weight: 600;
+}
+h4{
+    font-weight: 600;
+}
+
+@keyframes fly {
+    0% {
+        left: 20px;
+        bottom: 20px;
+    }
+    25% {
+        left: -20px;
+        bottom: 20px;
+    }
+    50% {
+        left: -20px;
+        bottom: 0px;
+    }
+    75% {
+        left: 0px;
+        bottom: 0px;
+    }
+    100% {
+        left: 20px;
+        bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 992px){
+    .hidden{
+        display: none;
+    }
+  }

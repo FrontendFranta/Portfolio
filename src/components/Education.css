@@ -1,0 +1,29 @@
+.edu-img{
+    width: 100%;
+    border-radius: 25px;
+    border-bottom: 10px solid #200545;
+    border-right: 10px solid #200545;
+    opacity: 0.9;
+}
+.clear-text{
+    color: #bdbed1!important;
+}
+.bg-darker{
+    background: #1b043b;
+    
+}
+.muted{
+    background: #f8f8f8;
+}
+.floating{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+   
+}
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
