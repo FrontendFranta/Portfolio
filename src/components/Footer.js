@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className='py-5 bg-dark text-white' id='contact'>
         <div className='container'>
        
-        <h4 className='mb-5'><span>04.</span> Kontakt</h4>
+        <Fade bottom>   <h4 className='mb-5'><span>04.</span> Kontakt</h4> </Fade>
             <div className='row text-center'>
                 <div className='col-lg-6 mb-5'>
               <Fade bottom>

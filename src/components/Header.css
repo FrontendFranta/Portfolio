@@ -1,10 +1,10 @@
 header{
-    height: 100vh;
     background-image: url(../images/hero.PNG);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    height: 100vh;
+    
 }
 h1{
     font-size: 3.5rem;

@@ -9,7 +9,7 @@ const Education = () => {
     <div className='py-5 bg-darker text-white' id='education'>
       <div className='container'>
       
-        <h4 className='mb-5'><span>03.</span> Vzdělání</h4>
+      <Fade left><h4 className='mb-5'><span>03.</span> Vzdělání</h4></Fade>
         <div className='row align-items-center'>
         <div className='col-lg-6 mb-5'>
   <Fade left>
