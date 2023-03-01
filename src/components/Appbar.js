@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Appbar.css"
-import { FaBars, FaRegTimesCircle } from 'react-icons/fa';
+import { FaBars, FaRegTimesCircle, FaTypo3 } from 'react-icons/fa';
 
 
 const Appbar = () => {
@@ -22,7 +22,8 @@ const Appbar = () => {
   return (
    <nav className={header ? 'navbar navbar-expand-lg scroll fixed-top':'navbar navbar-expand-lg  fixed-top'}>
     <div className='container'>
-        <a className='navbar-brand' href='https://FrontendFranta.github.io/hello'>FrantaFajna</a>
+        <a className='navbar-brand' href='https://FrontendFranta.github.io/hello'>FrantaFajna <FaTypo3/> </a>
+        
         <div className='menu-icon' onClick={handleClick}>
             {click? <FaRegTimesCircle/>:<FaBars/>}
         </div>
