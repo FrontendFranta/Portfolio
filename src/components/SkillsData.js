@@ -1,31 +1,37 @@
+import icon1 from "../images/html.svg"
+import icon2 from "../images/css.svg"
+import icon3 from "../images/boot.png"
+import icon4 from "../images/Java.svg"
+import icon5 from "../images/reac.svg"
+
 const Languages = [
     {
         id: 1,
-        icon: "https://prakash-naikwadi.netlify.app/images/icons8-html-5-96.svg",
+        icon: icon1,
         title: "HTML",
         level: "Pokročilý"
     },
     {
         id: 2,
-        icon: "https://prakash-naikwadi.netlify.app/images/icons8-css3-96.svg",
+        icon: icon2,
         title: "CSS",
         level: "Pokročilý"
     },
     {
         id: 3,
-        icon: "https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png",
+        icon: icon3,
         title: "Bootstrap",
         level: "Pokročilý"
     },
     {
         id: 4,
-        icon: "https://prakash-naikwadi.netlify.app/images/icons8-javascript-96.svg",
+        icon: icon4,
         title: "Javascript",
         level: "Začátečník"
     },
     {
         id: 5,
-        icon: "https://prakash-naikwadi.netlify.app/images/icons8-react-80.svg",
+        icon: icon5,
         title: "React",
         level: "Začátečník"
     }
