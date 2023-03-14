@@ -31,6 +31,7 @@ const Appbar = () => {
         <a className='nav-link' href='https://FrontendFranta.github.io/hello' onClick={closeMobileMenu}>Úvod</a>
         <a className='nav-link' href='#skills' onClick={closeMobileMenu}>Dovednosti</a>
         <a className='nav-link' href='#education' onClick={closeMobileMenu}>Vzdělání</a>
+        <a className='nav-link' href='#projects' onClick={closeMobileMenu}>Projekty</a>
         <a className='nav-link' href='#contact' onClick={closeMobileMenu}>Kontakt</a>
     
       </div>

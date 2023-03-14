@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 const Project = () => {
   return (
-    <div className='py-5 bg-dark text-white'>
+    <div className='py-5 bg-dark text-white' id='projects'>
       <div className='container'>
         <Fade left>
         <h4 className='mb-5'><span>04. </span>Projekty</h4></Fade>
