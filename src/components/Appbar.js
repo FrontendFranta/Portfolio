@@ -22,13 +22,13 @@ const Appbar = () => {
   return (
    <nav className={header ? 'navbar navbar-expand-lg scroll fixed-top':'navbar navbar-expand-lg  fixed-top'}>
     <div className='container'>
-        <a className='navbar-brand' href='https://FrontendFranta.github.io/hello'>FrantaFajna <FaTypo3/> </a>
+        <a className='navbar-brand' href='https://FrontendFranta.github.io/Portfolio'>FrantaFajna <FaTypo3/> </a>
         
         <div className='menu-icon' onClick={handleClick}>
             {click? <FaRegTimesCircle/>:<FaBars/>}
         </div>
         <div className={click?'navbar-nav active':'navbar-nav'}>
-        <a className='nav-link' href='https://FrontendFranta.github.io/hello' onClick={closeMobileMenu}>Úvod</a>
+        <a className='nav-link' href='https://FrontendFranta.github.io/Portfolio' onClick={closeMobileMenu}>Úvod</a>
         <a className='nav-link' href='#skills' onClick={closeMobileMenu}>Dovednosti</a>
         <a className='nav-link' href='#education' onClick={closeMobileMenu}>Vzdělání</a>
         <a className='nav-link' href='#projects' onClick={closeMobileMenu}>Projekty</a>
