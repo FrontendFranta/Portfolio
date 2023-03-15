@@ -15,7 +15,7 @@ const Project = () => {
                 <div className=' py-5'>
                    <a href='https://frontendfranta.github.io/Projekt1'> <img className='project-img mb-3' src='https://frontendfranta.github.io/Projekt1/static/media/ft-bg.1d0f667ff9ca3ba71bb7.webp'></img></a>
                    <h3>TRVL.</h3>
-                    <p className='clear-text'>Vymyšlená webová stránka, která obsahuje View more, pohyblivé animace, hamburger menu, filter items. Aplikace je responzivní</p>
+                    <p className='clear-text'>Vymyšlená responzivní webová stránka, která obsahuje View more, pohyblivé animace, hamburger menu, filter items</p>
                   
                     <a href='https://frontendfranta.github.io/Projekt1'><Button text="Zobrazit stránku"/></a>
                 </div>
