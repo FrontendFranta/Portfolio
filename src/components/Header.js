@@ -18,7 +18,7 @@ const Header = () => {
                     <h4 className='mb-2'> <span>01.</span> Jmenuji se</h4>
                         <h1>František Fajna</h1>
                         <p className='clear-text mb-3'>Začínající Front-end Developer. K tvoření webových stránek používám technologie jako jsou: HTML, CSS, Bootstrap a ReactJS.</p>
-                        <a href='#skills'><Button text="Vidět více"/></a>
+                        <a href='#projects'><Button text="Projekty"/></a>
                     </div>
                     </Fade>
                 </div>
